@@ -1,0 +1,17 @@
+Package: branchpipe
+Type: Package
+Title: Create Complex Flows with Pipes and Verbs
+Version: 0.1.0
+Author: Robert W. Corty
+Maintainer: Robert W. Corty <rcorty@gmail.com>
+Description: This is an experimental R package that attempts to apply some 
+    concepts from git into magrittr/dplyr pipes. The first goal will be to 
+    figure out whether a branch and merge function could serve to facilitate the
+    common sequence of modifying, summarising, then joining back to the modified
+    data.  An example is provided in branchpipe.R and documentation file branch.Rd.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr
+RoxygenNote: 7.1.1
